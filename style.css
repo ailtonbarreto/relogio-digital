@@ -1,0 +1,50 @@
+@import url("./fonts/OpenSans-Light.ttf");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: #464545;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vh;
+    width: 60vw;
+    background: #d3d2d8;
+    border-radius: 4px;
+    box-shadow: 3px 8px 10px #000000;
+}
+
+.relogio div{
+    height: 20vh;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3b003b;
+    border-radius: 5%;
+    box-shadow: 5px 5px 15px #000000;
+    letter-spacing: 3px;
+    color: #fff;
+    justify-content: center;
+}
+
+.relogio span{
+    /* font-weight: bold; */
+    font-size: 60px;
+}
+
+.relogio span.tempo{
+    font-size: 10px;
+}
